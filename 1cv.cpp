@@ -29,7 +29,7 @@ void* Consumer (void* args) {
 	while(((ThreadArgs*)args)->flag) {
 		pthread_mutex_lock(&mutex);
 
-		while(buffer < maxValue)
+		while(buffer == 0)
 			pthread_cond_wait(&condition, &mutex);
 
 		{
