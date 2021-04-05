@@ -1,9 +1,3 @@
-/*
-   Задача 2 «Вызов лифта». 
-   Киселёва Виолетта 7372
-   Версия 1.0 08.03.2021
-*/
-
 #include <stdio.h>
 #include <unistd.h>
 #include <pthread.h>
